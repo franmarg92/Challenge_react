@@ -30,11 +30,23 @@ const TaskDetail = () => {
     <div className="container mt-4">
       <div className="card shadow p-4 bg-white">
         <h4 className="mb-4 text-info">📄 Detalle de la tarea</h4>
-        <p><strong>ID:</strong> {task.id_task}</p>
-        <p><strong>Título:</strong> {task.title}</p>
-        <p><strong>Descripción:</strong> {task.description}</p>
-        <p><strong>Estado:</strong> {task.complete ? "✅ Completada" : "❌ Pendiente"}</p>
-        <p><strong>Fecha de creación:</strong> {new Date(task.createdAt).toLocaleDateString()}</p>
+        <p>
+          <strong>ID:</strong> {task.id_task}
+        </p>
+        <p>
+          <strong>Título:</strong> {task.title}
+        </p>
+        <p>
+          <strong>Descripción:</strong> {task.description}
+        </p>
+        <p>
+          <strong>Estado:</strong>{" "}
+          {task.complete ? "✅ Completada" : "❌ Pendiente"}
+        </p>
+        <p>
+          <strong>Fecha de creación:</strong>{" "}
+          {new Date(task.createdAt).toLocaleDateString()}
+        </p>
 
         <button
           className="btn btn-secondary mt-3"
