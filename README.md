@@ -15,8 +15,8 @@ Aplicación fullstack para gestionar tareas. Incluye backend con Express y Seque
 ## ⚙️ Clonar el proyecto
 
 ```bash
-git clone https://github.com/tuusuario/nombre-del-repo.git
-cd nombre-del-repo
+git clone https://github.com/franmarg92/Challenge_react
+cd challenge_react
 ```
 
 ---
@@ -115,13 +115,9 @@ Podés usar Postman o Insomnia para probar los endpoints:
 
 ---
 
-## 📸 Demo
 
-*(opcional: agregar una imagen o GIF mostrando la app)*
-
----
 
 ## 🧑‍💻 Autor
 
 - Franco Gabrielleschi
-- [LinkedIn](https://linkedin.com/in/...) *(opcional)*
+- [LinkedIn] https://www.linkedin.com/in/francogabrielleschi/
